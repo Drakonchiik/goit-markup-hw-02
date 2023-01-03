@@ -1,0 +1,148 @@
+:root {
+    --brand-color: #2E2F42;
+    --text-color: #434455;
+    --accent-text-color: #E7E9FC;
+    --button-color: #F4F4FD;
+    --primary-brand-color: #4D5AE5;
+    --pressed-state: #404BBF;
+
+}
+
+/* body */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--brand-color);
+}
+/* header */
+/* logo */
+.logo {
+    font-family: 'Raleway';
+    font-size: 18px;
+    line-height: 1.33;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--brand-color);
+}
+
+.logo-web {
+    font-family: 'Raleway';
+    font-size: 18px;
+    line-height: 1.33;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--primary-brand-color);
+}
+
+/* navigation */
+.nav a {
+    color: var(--brand-color);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.nav a:hover,
+.nav a:focus {
+    color: var(--pressed-state);
+}
+
+/* contacts */
+.auth-nav a {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.auth-nav a:hover,
+.auth-nav a:focus {
+    color: var(--pressed-state);
+}
+
+/* main page index.html */
+.hero {
+    background-color: var(--brand-color);
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.hero-btn {
+    background-color: var(--primary-brand-color);
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--pressed-state);
+}
+
+/* our advantages */
+.advant-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.advant-descr {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+/* about us */
+.about-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+/* our team */
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.team-position {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+/* footer */
+.footer {
+    background-color: var(--brand-color);
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--button-color);
+}
+.footer-descr {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--accent-text-color);
+}
