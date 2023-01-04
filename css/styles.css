@@ -99,7 +99,6 @@ body {
 
 .advant-descr {
     line-height: 1.5;
-    letter-spacing: 0.02em;
     color: var(--text-color);
 }
 
@@ -133,7 +132,6 @@ body {
 
 .team-position {
     line-height: 1.5;
-    letter-spacing: 0.02em;
     color: var(--text-color);
 }
 
@@ -167,7 +165,6 @@ body {
 .prooject-descr {
     color: var(--text-color);
     line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 /* footer */
 .footer {
@@ -184,6 +181,5 @@ body {
 }
 .footer-descr {
     line-height: 1.5;
-    letter-spacing: 0.02em;
     color: var(--accent-text-color);
 }
