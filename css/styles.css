@@ -6,7 +6,10 @@
     --primary-brand-color: #4D5AE5;
     --pressed-state: #404BBF;
     --white-color: #ffffff;
+}
 
+ul {
+    list-style: none;
 }
 
 /* body */
@@ -83,6 +86,9 @@ body {
     background-color: var(--primary-brand-color);
     cursor: pointer;
     color: var(--white-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .hero-btn:hover,
