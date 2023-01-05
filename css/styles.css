@@ -5,6 +5,7 @@
     --button-color: #F4F4FD;
     --primary-brand-color: #4D5AE5;
     --pressed-state: #404BBF;
+    --white-color: #ffffff;
 
 }
 
@@ -14,7 +15,7 @@ body {
     color: var(--brand-color);
     letter-spacing: 0.02em;
     font-weight: 400;
-    background-color: #ffffff;
+    background-color: var(--white-color);
 }
 /* header */
 /* logo */
@@ -75,13 +76,13 @@ body {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
-    color: #ffffff;
+    color: var(--white-color);
 }
 
 .hero-btn {
     background-color: var(--primary-brand-color);
     cursor: pointer;
-    color: #ffffff;
+    color: var(--white-color);
 }
 
 .hero-btn:hover,
@@ -147,7 +148,7 @@ body {
 .filter-btn:hover,
 .filter-btn:focus {
     background-color: var(--pressed-state);
-    color: #ffffff;
+    color: var(--white-color);
 }
 
 /* our projects */
